@@ -29,6 +29,8 @@ class ConnectFriendsLastPg: UIViewController {
         super.viewDidLoad()
 
         cornerRadious()
+        
+        labelHolder()
         // Do any additional setup after loading the view.
     }
     
@@ -45,4 +47,12 @@ class ConnectFriendsLastPg: UIViewController {
         fifthImg.layer.cornerRadius = 30
         
     }
+    func labelHolder(){
+        signinLabel.text = Strings.str_SignIn_Screen_Text
+        
+        titleLstPg.text = Strings.str_titleThirdPage
+        
+        subTitleLstPg.text = Strings.str_sub_titleThirdPage
+    }
+    
 }

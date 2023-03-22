@@ -32,6 +32,8 @@ class connectWithFriends: UIViewController {
         
         labelsSetup()
         
+        navigationController?.setNavigationBarHidden(true, animated: true)
+        
     }
     
     func cornerRadious(){

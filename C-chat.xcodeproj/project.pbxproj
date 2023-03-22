@@ -17,6 +17,9 @@
 		AD16B53729C8E2BE00185B19 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD16B53629C8E2BE00185B19 /* StringConstants.swift */; };
 		AD16B53929C8FD4900185B19 /* connectWithFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD16B53829C8FD4900185B19 /* connectWithFriends.swift */; };
 		AD797C6529C9BBC0001C950C /* ConnectFriendsLastPg.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD797C6429C9BBC0001C950C /* ConnectFriendsLastPg.swift */; };
+		AD797C6929C9DC55001C950C /* PhoneNumbReg.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD797C6829C9DC55001C950C /* PhoneNumbReg.swift */; };
+		AD797C6D29CA3535001C950C /* Loader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD797C6C29CA3535001C950C /* Loader.xib */; };
+		AD797C6F29CA3550001C950C /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD797C6E29CA3550001C950C /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		AD16B53629C8E2BE00185B19 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		AD16B53829C8FD4900185B19 /* connectWithFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectWithFriends.swift; sourceTree = "<group>"; };
 		AD797C6429C9BBC0001C950C /* ConnectFriendsLastPg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectFriendsLastPg.swift; sourceTree = "<group>"; };
+		AD797C6829C9DC55001C950C /* PhoneNumbReg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumbReg.swift; sourceTree = "<group>"; };
+		AD797C6C29CA3535001C950C /* Loader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Loader.xib; sourceTree = "<group>"; };
+		AD797C6E29CA3550001C950C /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,19 +70,38 @@
 		AD16B51E29C8D80C00185B19 /* C-chat */ = {
 			isa = PBXGroup;
 			children = (
+				AD797C6729C9DBF6001C950C /* SignUp_and_SignIn */,
+				AD797C6629C9DBCD001C950C /* OnBording */,
 				AD16B51F29C8D80C00185B19 /* AppDelegate.swift */,
 				AD16B52129C8D80C00185B19 /* SceneDelegate.swift */,
 				AD16B53629C8E2BE00185B19 /* StringConstants.swift */,
-				AD16B53829C8FD4900185B19 /* connectWithFriends.swift */,
-				AD797C6429C9BBC0001C950C /* ConnectFriendsLastPg.swift */,
-				AD16B52329C8D80C00185B19 /* ViewController.swift */,
 				AD16B52529C8D80C00185B19 /* Main.storyboard */,
 				AD16B52B29C8D80D00185B19 /* Assets.xcassets */,
 				AD16B52D29C8D80D00185B19 /* LaunchScreen.storyboard */,
 				AD16B53029C8D80D00185B19 /* Info.plist */,
 				AD16B52829C8D80C00185B19 /* C_chat.xcdatamodeld */,
+				AD797C6E29CA3550001C950C /* Loader.swift */,
+				AD797C6C29CA3535001C950C /* Loader.xib */,
 			);
 			path = "C-chat";
+			sourceTree = "<group>";
+		};
+		AD797C6629C9DBCD001C950C /* OnBording */ = {
+			isa = PBXGroup;
+			children = (
+				AD16B53829C8FD4900185B19 /* connectWithFriends.swift */,
+				AD797C6429C9BBC0001C950C /* ConnectFriendsLastPg.swift */,
+				AD16B52329C8D80C00185B19 /* ViewController.swift */,
+			);
+			path = OnBording;
+			sourceTree = "<group>";
+		};
+		AD797C6729C9DBF6001C950C /* SignUp_and_SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				AD797C6829C9DC55001C950C /* PhoneNumbReg.swift */,
+			);
+			path = SignUp_and_SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +164,7 @@
 			files = (
 				AD16B52F29C8D80D00185B19 /* LaunchScreen.storyboard in Resources */,
 				AD16B52C29C8D80D00185B19 /* Assets.xcassets in Resources */,
+				AD797C6D29CA3535001C950C /* Loader.xib in Resources */,
 				AD16B52729C8D80C00185B19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,6 +183,8 @@
 				AD16B53729C8E2BE00185B19 /* StringConstants.swift in Sources */,
 				AD16B53929C8FD4900185B19 /* connectWithFriends.swift in Sources */,
 				AD16B52229C8D80C00185B19 /* SceneDelegate.swift in Sources */,
+				AD797C6929C9DC55001C950C /* PhoneNumbReg.swift in Sources */,
+				AD797C6F29CA3550001C950C /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

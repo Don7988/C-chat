@@ -21,7 +21,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.setNavigationBarHidden(true, animated: true)
         setDetails()
+        
     }
     
     @IBAction func SubButton(_ sender: Any) {

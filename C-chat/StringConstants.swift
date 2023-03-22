@@ -9,7 +9,15 @@ import Foundation
 
 struct Strings
 {
+    static let str_phone_heading = "Phone"
+    
+    static let str_phone_subHeading = "Enter your phone number"
+    
     static let str_screenTitle = "Social"
+    
+    static let str_titleThirdPage = "Make new friends with ease"
+    
+    static let str_sub_titleThirdPage = "Allowing you to make new friends is our number one priority"
     
     static let str_default_API_Error = "Something went wrong! Please try again later"
         
