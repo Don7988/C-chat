@@ -55,4 +55,15 @@ class ConnectFriendsLastPg: UIViewController {
         subTitleLstPg.text = Strings.str_sub_titleThirdPage
     }
     
+    @IBAction func nextBtn(_ sender: Any){
+        let vc = storyboard?.instantiateViewController(withIdentifier: "PhoneNumbReg1")as! PhoneNumbReg
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @IBAction func skipBtn(_ sender: Any){
+        let vc = storyboard?.instantiateViewController(withIdentifier: "PhoneNumbReg1")as! PhoneNumbReg
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
