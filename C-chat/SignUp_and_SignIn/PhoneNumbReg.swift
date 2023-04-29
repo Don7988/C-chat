@@ -47,6 +47,21 @@ class PhoneNumbReg: UIViewController {
         
     }
     
+    @IBAction func nextBtn(_ sender: Any) {
+        
+        if (phTxtFld.text) != "" {
+            
+            let viewcntrl = storyboard?.instantiateViewController(withIdentifier: "otpVC") as! OtpViewController
+            
+            navigationController?.pushViewController(viewcntrl, animated: true)
+        }else{
+
+            let alertDetails = UIAlertController(title: "For OTP", message: "Enter a valid phone number", preferredStyle: .alert)
+            alertDetails.addAction(UIAlertAction(title: "Ok", style: .destructive))
+            self.present(alertDetails, animated: true)
+        }
+        
+    }
 }
 extension PhoneNumbReg: UIPickerViewDelegate, UIPickerViewDataSource{
     func numberOfComponents(in pickerView: UIPickerView) -> Int {

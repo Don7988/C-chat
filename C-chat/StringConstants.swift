@@ -11,6 +11,12 @@ struct Strings
 {
     static let str_phone_heading = "Phone"
     
+    static let str_didnt_recved_code = "Didn't recived any code ?"
+    
+    static let str_otp_heading = "OTP sent"
+    
+    static let str_otp_sub_heading = "Enter the OTP sented to you."
+    
     static let str_phone_subHeading = "Enter your phone number"
     
     static let str_screenTitle = "Social"

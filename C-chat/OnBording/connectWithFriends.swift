@@ -67,6 +67,10 @@ class connectWithFriends: UIViewController {
     
     
     @IBAction func skipBtn(_ sender: Any) {
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "PhoneNumbReg1")as! PhoneNumbReg
+        
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func signinBtn(_ sender: Any) {
